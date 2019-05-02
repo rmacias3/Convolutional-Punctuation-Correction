@@ -7,7 +7,7 @@ from nltk import word_tokenize, sent_tokenize
 from collections import deque
 from math import floor
 
-books_root_dir = '/home/rmacias3/Desktop/Research/Shooky/Models/ShookyNet/dataset/Gutenberg/txt/'
+books_root_dir = ''
 punctuation = {
     '?': 1,
     '.': 2,
