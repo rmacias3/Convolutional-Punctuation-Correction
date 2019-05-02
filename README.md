@@ -10,4 +10,6 @@ Punctuation Correction via Temporal Convolutional Networks + BERT Embeddings
 
 5) Run train_segmenter.py to train the sentence punctuator.
 
+Notes:
 I received around 93% accuracy on the validation set. Keep in mind that the gutenberg corpus is not perfectly clean.
+A half-logistic distribution is used to generate unpunctuated sentences of varying lengths.
